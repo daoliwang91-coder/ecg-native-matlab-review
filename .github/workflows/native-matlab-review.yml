@@ -19,7 +19,7 @@ jobs:
         uses: matlab-actions/setup-matlab@f9e43010f1ae678f7cfa0542fe2a4f60f7d1ad8d
         with:
           release: R2021b
-          products: Signal_Processing_Toolbox Wavelet_Toolbox Statistics_and_Machine_Learning_Toolbox
+          products: Image_Processing_Toolbox Signal_Processing_Toolbox Wavelet_Toolbox Statistics_and_Machine_Learning_Toolbox
       - name: Execute the unchanged fixed native diagnostic panel
         uses: matlab-actions/run-command@bfa857648f4895aa98a446fe41c85e0788421ed5
         with:
