@@ -1,0 +1,26 @@
+[
+  {
+    "repo": "actions/checkout",
+    "tag": "v4",
+    "sha": "11d5960a326750d5838078e36cf38b85af677262",
+    "url": "https://api.github.com/repos/actions/checkout/git/refs/tags/v4"
+  },
+  {
+    "repo": "matlab-actions/setup-matlab",
+    "tag": "v3",
+    "sha": "f9e43010f1ae678f7cfa0542fe2a4f60f7d1ad8d",
+    "url": "https://api.github.com/repos/matlab-actions/setup-matlab/git/refs/tags/v3"
+  },
+  {
+    "repo": "matlab-actions/run-command",
+    "tag": "v3",
+    "sha": "bfa857648f4895aa98a446fe41c85e0788421ed5",
+    "url": "https://api.github.com/repos/matlab-actions/run-command/git/refs/tags/v3"
+  },
+  {
+    "repo": "actions/upload-artifact",
+    "tag": "v4",
+    "sha": "ea165f8d65b6e75b540449e92b4886f43607fa02",
+    "url": "https://api.github.com/repos/actions/upload-artifact/git/refs/tags/v4"
+  }
+]

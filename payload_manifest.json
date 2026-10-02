@@ -1,0 +1,196 @@
+{
+  "archive_path": "payload/native_review_inputs_and_source.zip",
+  "archive_sha256": "0a8ef3bb0d4e9fd8bc326d831676903ba57131c73d7ea502757885568b7bfb28",
+  "archive_bytes": 1210348,
+  "files": [
+    {
+      "path": "official_matlab_review/official_ecgdeli_v1_1/CODE_OF_CONDUCT.md",
+      "sha256": "d707c4a1ad61195d12b76e566465861408d6ad02b0e09d3008da90f896e86d60"
+    },
+    {
+      "path": "official_matlab_review/official_ecgdeli_v1_1/ECG_Processing/Annotate_ECG_Multi.m",
+      "sha256": "bc1c0991d3b0458563c21d6afdf4d94a70603e8dd2df0739f7843362bbed7c6f"
+    },
+    {
+      "path": "official_matlab_review/official_ecgdeli_v1_1/ECG_Processing/Check_Position_ECG_Waves.m",
+      "sha256": "71ba074c43d230683e149a42b9a17da0a7f03cd917638ba8fda83a4a9d6463af"
+    },
+    {
+      "path": "official_matlab_review/official_ecgdeli_v1_1/ECG_Processing/Check_R_Peaks_Multi.m",
+      "sha256": "c60fa8c82ad581de8583e02aca951da3c5c085c6c064bc12f29b6ffe24bfc60b"
+    },
+    {
+      "path": "official_matlab_review/official_ecgdeli_v1_1/ECG_Processing/Check_Small_RR.m",
+      "sha256": "2491c42ba2a30569c1cfece625f180d53863ed42dc0c0baa9dcb632bbd24a5bf"
+    },
+    {
+      "path": "official_matlab_review/official_ecgdeli_v1_1/ECG_Processing/Check_T_Wave.m",
+      "sha256": "200b65f8190e3b3d2dac5013e316938c23f11c956f024a6f8bc16d1a69e32dd4"
+    },
+    {
+      "path": "official_matlab_review/official_ecgdeli_v1_1/ECG_Processing/Create_Template.m",
+      "sha256": "ca0a729639168aab0737e07fd4fb9142f6fae43f25b53814b1e4769d00f11dd0"
+    },
+    {
+      "path": "official_matlab_review/official_ecgdeli_v1_1/ECG_Processing/ExtractAmplitudeFeaturesFromFPT.m",
+      "sha256": "6c2ee009edc8980bbcbefdd09d2f930a0b442d04fd9e97230c014fa82d1edda6"
+    },
+    {
+      "path": "official_matlab_review/official_ecgdeli_v1_1/ECG_Processing/ExtractIntervalFeaturesFromFPT.m",
+      "sha256": "e657acd780c5e2884a1d0d2445857c8060a7aa8a8f509287a32fc249b44fa7ce"
+    },
+    {
+      "path": "official_matlab_review/official_ecgdeli_v1_1/ECG_Processing/Get_P_Morphology.m",
+      "sha256": "7175d066cbbb0d5ac88dabfd17ec65f2c05914215ee7b82743e6748181e5c5ac"
+    },
+    {
+      "path": "official_matlab_review/official_ecgdeli_v1_1/ECG_Processing/P_Detection.m",
+      "sha256": "ef8a735c291b10b283c8655a52b3d8e55de967a5a25c09dd2b0b9e0da318b97b"
+    },
+    {
+      "path": "official_matlab_review/official_ecgdeli_v1_1/ECG_Processing/QRS_Detection.m",
+      "sha256": "e127007170e650a3dddb0766bbdb1d89acedc9fda21866055deddafd5e5d0d6d"
+    },
+    {
+      "path": "official_matlab_review/official_ecgdeli_v1_1/ECG_Processing/Remove_PQRS.m",
+      "sha256": "d9c87f42f092fdbf1a36f583cef9d18d3b4e9752f162946d6be96a065c7d7148"
+    },
+    {
+      "path": "official_matlab_review/official_ecgdeli_v1_1/ECG_Processing/Remove_QRST.m",
+      "sha256": "e09e4f31255d0a1601e6c1994835aea62bcf851a588ea63c5877cc6c7d4b637f"
+    },
+    {
+      "path": "official_matlab_review/official_ecgdeli_v1_1/ECG_Processing/Remove_QRS_single.m",
+      "sha256": "785e9ff868ebf4b222f0cdd3646e0cc30a07c5d5b7fb18b5c76fdbe0a15289ac"
+    },
+    {
+      "path": "official_matlab_review/official_ecgdeli_v1_1/ECG_Processing/Sync_Beats.m",
+      "sha256": "f160c2cd4c8068a174636ec8c24aa4c631f23ad67cfb4d2fae2fa41fc32d6973"
+    },
+    {
+      "path": "official_matlab_review/official_ecgdeli_v1_1/ECG_Processing/Sync_Channels.m",
+      "sha256": "207f104f766a83224923ec13c6afd5f0ee34b1124d076dce454ae6b7bf6a6746"
+    },
+    {
+      "path": "official_matlab_review/official_ecgdeli_v1_1/ECG_Processing/Sync_R_Peaks.m",
+      "sha256": "580d8673297a51639bb999c2b30a36746eba309adbdfdab52f11cca66a631a74"
+    },
+    {
+      "path": "official_matlab_review/official_ecgdeli_v1_1/ECG_Processing/T_Detection.m",
+      "sha256": "8180918c163f6d58eb14e1ca52b3529cbcaf878ef381d25cb1c65855737655d5"
+    },
+    {
+      "path": "official_matlab_review/official_ecgdeli_v1_1/ECG_Processing/l_operator.m",
+      "sha256": "cb5106dba998f05d815adf1a67e02168a692b4e5a066db8becced9370853e375"
+    },
+    {
+      "path": "official_matlab_review/official_ecgdeli_v1_1/Example/Annotate_ExampleECG.m",
+      "sha256": "628204fd3643fa8f692a6c5841e63be1f544f995d68ad16a9f0dcad7767f46ad"
+    },
+    {
+      "path": "official_matlab_review/official_ecgdeli_v1_1/Filtering/ECG_Baseline_Removal.m",
+      "sha256": "bfc0bd889fd61e21de47837a9a0fd7b1b876cc43ac5283923d0ec06fb1374c0d"
+    },
+    {
+      "path": "official_matlab_review/official_ecgdeli_v1_1/Filtering/ECG_High_Filter.m",
+      "sha256": "66cffa7cddb5e4b48dbf15c723adaf09f3db590a2ba5fbf8d947d44d94b80a27"
+    },
+    {
+      "path": "official_matlab_review/official_ecgdeli_v1_1/Filtering/ECG_High_Low_Filter.m",
+      "sha256": "d8e9578ee108f81b27c5c72c3f9988a164ecc2a29796447857f9453911fb7097"
+    },
+    {
+      "path": "official_matlab_review/official_ecgdeli_v1_1/Filtering/ECG_Low_Filter.m",
+      "sha256": "888181b2b7cb20974e005845559b02d8118132e86943b442beed7058a0c483f1"
+    },
+    {
+      "path": "official_matlab_review/official_ecgdeli_v1_1/Filtering/Isoline_Correction.m",
+      "sha256": "8ccd842a1e9ddaada00b055caf5bd9c8a2bb350daea3013b22e38038779cc37f"
+    },
+    {
+      "path": "official_matlab_review/official_ecgdeli_v1_1/Filtering/Notch_Filter.m",
+      "sha256": "e204d0b98b40eb62392829cc20805f3423c78d6b10e4fa3444d09f8bb1674879"
+    },
+    {
+      "path": "official_matlab_review/official_ecgdeli_v1_1/LICENSE",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "official_matlab_review/official_ecgdeli_v1_1/README.md",
+      "sha256": "c188a579e6ada7db031a7e7c434d2070d11c9c79160a30b41793891f8d6ec25e"
+    },
+    {
+      "path": "official_matlab_review/matlab_inputs/00960_native_input.mat",
+      "sha256": "ad62f10f96a314ff55af5304d78b17bbfaa53e3a1d926f1ba7aac9868fd7783d"
+    },
+    {
+      "path": "official_matlab_review/matlab_inputs/01363_native_input.mat",
+      "sha256": "67c9efb9e22a77d1d0dd53281302305a293bbce6a8bd2aff8abcce54c4f474d2"
+    },
+    {
+      "path": "official_matlab_review/matlab_inputs/01373_native_input.mat",
+      "sha256": "a2641f0e45c923d42f474f7fb8652751e0bd8c75f021ec6b135d05f1126ceb87"
+    },
+    {
+      "path": "official_matlab_review/matlab_inputs/01575_native_input.mat",
+      "sha256": "b2f6b77058eebf0252f3003a826911c7c726a795ffcb4d0837e66a5c368bd587"
+    },
+    {
+      "path": "official_matlab_review/matlab_inputs/01612_native_input.mat",
+      "sha256": "b1bb2f49179ca969d209aa27066e849f49690eefbdcac213306c90e61f250f1b"
+    },
+    {
+      "path": "official_matlab_review/matlab_inputs/01877_native_input.mat",
+      "sha256": "66ff1d7e2350fa61ed94aeb28ba8fdc09ef6809b6a1455d4d88fb2b341a08875"
+    },
+    {
+      "path": "official_matlab_review/matlab_inputs/02340_native_input.mat",
+      "sha256": "8e0b9636d1aa6f61c4a09cee064f36ac622746bfd24044aa4749a15975db9102"
+    },
+    {
+      "path": "official_matlab_review/matlab_inputs/02593_native_input.mat",
+      "sha256": "ffb037ea16f4f45eac060ce727ccecebad21dd522eb12ea5e2a57c285d3fcfca"
+    },
+    {
+      "path": "official_matlab_review/matlab_inputs/03024_native_input.mat",
+      "sha256": "4ffdc36f1caa1b5bf7cca28e5640e748fec58493b791f1a8eb24f7a23b47d583"
+    },
+    {
+      "path": "official_matlab_review/matlab_inputs/03115_native_input.mat",
+      "sha256": "834410c73169af4928f787f57c271ea6a235c0bc284baf5529ede4641bfffd58"
+    },
+    {
+      "path": "official_matlab_review/matlab_inputs/03385_native_input.mat",
+      "sha256": "411a02b80e6c15abf6baed8d06521bd2598bb328cb4686728cd291a956c1cc64"
+    },
+    {
+      "path": "official_matlab_review/matlab_inputs/07895_native_input.mat",
+      "sha256": "70b5dddd7b47c5e8c38f170bace6289647bf738c63d73771ffd4bde80f8726bb"
+    },
+    {
+      "path": "official_matlab_review/matlab_inputs/08181_native_input.mat",
+      "sha256": "ae7c9f4e189bac8487873f9ddd22c56bb40a7e4cd9eaa8e90968f32e377874cb"
+    },
+    {
+      "path": "official_matlab_review/matlab_inputs/14832_native_input.mat",
+      "sha256": "fbed5cf6dd09c086918ddd0c3e95632a2d72a78fb7d9e4ce354722fa2b650e36"
+    },
+    {
+      "path": "official_matlab_review/matlab_inputs/17459_native_input.mat",
+      "sha256": "0eaeee31a209f6b4462cde25376b515f63ef6e998174774813d1e979641aa55d"
+    },
+    {
+      "path": "official_matlab_review/run_bc5_official_review.m",
+      "sha256": "1aff5d940edf269dc1dfaeb022753ded0d2d9121913bb5d421e57f773f1f4eb2"
+    },
+    {
+      "path": "official_matlab_review/review_contract.json",
+      "sha256": "0d7ab0dbf8b647d4fac035e0055c6ff8273f7ce3f8d1f5475eaa094eab8e1b14"
+    }
+  ],
+  "planned_ecgs": 15,
+  "planned_attempts": 30,
+  "source_commit": "3c13b1b2ff55152360f3cee992c1d1d66099aa14",
+  "comparison_evidence_included": false,
+  "python_results_included": false
+}

@@ -1,0 +1,39 @@
+name: Frozen native ECG MATLAB review
+on:
+  push:
+    branches: [ecg-native-matlab-review]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  native-review:
+    if: github.event.repository.private == false
+    runs-on: ubuntu-22.04
+    timeout-minutes: 45
+    steps:
+      - name: Check out the fixed review package
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - name: Verify and extract original native inputs and source
+        run: python3 tools/verify_and_extract.py
+      - name: Set up genuine MATLAB R2021b and required toolboxes
+        uses: matlab-actions/setup-matlab@f9e43010f1ae678f7cfa0542fe2a4f60f7d1ad8d
+        with:
+          release: R2021b
+          products: Signal_Processing_Toolbox Wavelet_Toolbox Statistics_and_Machine_Learning_Toolbox
+      - name: Execute the unchanged fixed native diagnostic panel
+        uses: matlab-actions/run-command@bfa857648f4895aa98a446fe41c85e0788421ed5
+        with:
+          command: run_ci_native_review
+      - name: Retain completed and failed attempts for comparison
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: native-matlab-review-${{ github.run_id }}-${{ github.run_attempt }}
+          if-no-files-found: warn
+          retention-days: 30
+          path: |
+            BC7_MATLAB_return.zip
+            MATLAB_native_review.log
+            MATLAB_environment_error.txt
+            input_verification.json
+            MATLAB_review/official_matlab_review/matlab_outputs/
